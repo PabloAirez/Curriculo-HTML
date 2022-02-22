@@ -1,0 +1,194 @@
+html{
+    scroll-behavior: smooth;
+ }
+
+h1{
+    color: white;
+    font-size: 90px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+}
+h2, h3{
+    color: blueviolet;
+}
+p{
+    font-size: 18px;
+}
+#Cargo{
+    color: white;
+    font-size: 30px;;
+    margin-top: 0px;
+    margin-left: 20px;;
+}
+header{
+    border:black; 
+    border-width:5px;
+    border-style:solid;
+    background-color: blueviolet;
+}
+
+#Container{
+    display: flex;
+}
+
+#perfil{
+    width: 160px;
+    height: 160px;
+    margin-top: 60px;
+    margin-left: 150px;
+    margin-right: 80px;
+    border-radius: 50%;
+}
+
+nav{
+    background-color:rgb(103, 15, 185);
+    border:black; 
+    border-bottom:5px;
+    border-left:5px;
+    border-right:5px;
+    border-style:solid;
+    text-align: center;
+}
+
+#menuHamburguer{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right:auto;
+    top: auto;
+    display:none;
+    right: 30px;
+}
+
+
+#menu ul {
+	padding:20px;
+	margin:0px;
+    overflow: hidden;
+    transition: all .5s;
+   
+}
+
+#menu ul li {
+    display: inline; 
+    margin-left: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+a:hover, #menuHamburguer:hover {
+    color: rgb(206, 12, 180);
+  }
+
+  #menuHamburguer:focus ~ ul{
+      height: 330px;
+  }
+
+  @media (max-width:1180px){
+    nav, #menu ul li{
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    #menu ul{ 
+        height: 0px;
+    }
+
+    #menu ul li{
+        display: flex;
+        margin-top: 20px;
+    }
+
+    #menuHamburguer{
+        display: flex;
+    }
+    
+  }
+
+ 
+
+  @media (max-width:860px){
+      #perfil{
+          display: none;
+      }
+  }
+
+.SessoesCurriculo{
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color:rgba(255, 253, 253, 0.993);
+    border-style: solid;
+    border-bottom-width:5px;
+    border-left-width:5px;
+    border-right-width:5px;
+    
+}
+
+#InformacoesPessoais{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+#DadosBasicos {
+    margin-left: 20px;
+    flex: 1;
+}
+
+#redesSociais{
+    background-color: rgb(161, 33, 161);
+    width: 120px;
+    padding-bottom: 5px;
+}
+
+#redesSociais p{
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#redesSociais a{
+    color: rgb(180, 113, 243);
+    margin-left: 10px;
+    
+}
+
+#Experiencia{
+    padding-bottom: 10px;
+}
+
+footer{
+    color: #ffffff;
+    font-weight: bold;
+    background-color:rgb(103, 15, 185);
+    border:black; 
+    border-bottom-width:5px;
+    border-left-width:5px;
+    border-right-width:5px;
+    border-style:solid;
+    text-align: center;
+}
+
+#logoRedes{
+    display: inline;
+}
+
+.logos{
+    height: 30px;
+    margin: 5px;
+
+}
+
+
+
+
+
+
+
